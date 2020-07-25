@@ -20,13 +20,12 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:key="smart_charging_screen"
     android:title="@string/smart_charging_title">
-
-    <com.revengeos.settings.preferences.SystemSettingSwitchPreference
+    <com.revengeos.settings.preference.SystemSettingSwitchPreference
         android:key="smart_charging"
         android:title="@string/smart_charging_switch_title"
         android:defaultValue="false" />
 
-    <com.revengeos.settings.preferences.CustomSeekBarPreference
+    <com.revengeos.settings.preference.CustomSeekBarPreference
         android:key="smart_charging_level"
         android:title="@string/smart_charging_level_title"
         android:max="100"
