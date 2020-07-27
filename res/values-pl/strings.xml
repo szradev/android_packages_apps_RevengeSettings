@@ -182,9 +182,9 @@
     <string name="designed_battery_capacity_summary">Pojemność bateri według producenta</string>
 
     <!-- Smart charging -->
-    <string name="smart_charging_title">Inteligetne ładowanie</string>
+    <string name="smart_charging_title">Inteligentne ładowanie</string>
     <string name="smart_charging_summary">Ustaw maksymaly poziom naładowania</string>
-    <string name="smart_charging_switch_title">Używaj inteligentego ładowania</string>
+    <string name="smart_charging_switch_title">Używaj inteligentnego ładowania</string>
     <string name="smart_charging_level_title">Poziom ładowania</string>
     <string name="smart_charging_footer">Inteligetne ładowanie pozwała zwieszyć żywotność Twojego ogniwa</string>
 </resources>
