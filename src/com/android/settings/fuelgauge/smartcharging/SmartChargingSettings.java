@@ -45,7 +45,7 @@ public class SmartChargingSettings extends DashboardFragment implements OnPrefer
 
     private static final String TAG = "SmartChargingSettings";
     private static final String KEY_SMART_CHARGING_LEVEL = "smart_charging_level";
-    private static final String KEY_SMART_CHARGING_LEVEL_MIN = "smart_charging_level_min"
+    private static final String KEY_SMART_CHARGING_LEVEL_MIN = "smart_charging_level_min";
 
     private CustomSeekBarPreference mSmartChargingLevel;
     private CustomSeekBarPreference mSmartChargingLevelMin;

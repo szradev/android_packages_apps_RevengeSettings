@@ -217,7 +217,8 @@
     <string name="smart_charging_level_title">Trigger level stop</string>
     <string name="smart_charging_level_min_title">Trigger level start</string>
     <string name="smart_charging_night_switch_title">Use Smart charging night (TEST)</string>
-    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
+    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery. Intelligent Night Charging is an experimental feature that will start charging at 4 am to protect the battery life.
+</string>
 
 
 </resources>
