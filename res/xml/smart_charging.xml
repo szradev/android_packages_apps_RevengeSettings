@@ -20,10 +20,20 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:key="smart_charging_screen"
     android:title="@string/smart_charging_title">
+
     <com.revengeos.settings.preference.SystemSettingSwitchPreference
         android:key="smart_charging"
         android:title="@string/smart_charging_switch_title"
         android:defaultValue="false" />
+
+    <com.revengeos.settings.preference.CustomSeekBarPreference
+        android:key="smart_charging_level_min"
+        android:title="@string/smart_charging_level_min_title"
+        android:max="90"
+        settings:min="40"
+        settings:units="%"
+        android:defaultValue="40"
+        android:dependency="smart_charging" />
 
     <com.revengeos.settings.preference.CustomSeekBarPreference
         android:key="smart_charging_level"
@@ -33,5 +43,10 @@
         settings:units="%"
         android:defaultValue="80"
         android:dependency="smart_charging" />
+
+    <com.revengeos.settings.preference.SystemSettingSwitchPreference
+        android:key="smart_charging_night"
+        android:title="@string/smart_charging_night_switch_title"
+        android:defaultValue="false" />
 
 </PreferenceScreen>

@@ -45,20 +45,33 @@ public class SmartChargingSettings extends DashboardFragment implements OnPrefer
 
     private static final String TAG = "SmartChargingSettings";
     private static final String KEY_SMART_CHARGING_LEVEL = "smart_charging_level";
+    private static final String KEY_SMART_CHARGING_LEVEL_MIN = "smart_charging_level_min"
 
     private CustomSeekBarPreference mSmartChargingLevel;
+    private CustomSeekBarPreference mSmartChargingLevelMin;
+
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         int mSmartChargingLevelDefaultConfig = getResources().getInteger(
                 com.android.internal.R.integer.config_smartChargingBatteryLevel);
+        int mSmartChargingLevelMinDefaultConfig = getResources().getInteger(
+                com.android.internal.R.integer.config_smartChargingBatteryLevelMin);
 
         mSmartChargingLevel = (CustomSeekBarPreference) findPreference(KEY_SMART_CHARGING_LEVEL);
+        mSmartChargingLevelMin = (CustomSeekBarPreference) findPreference(KEY_SMART_CHARGING_LEVEL_MIN);
+
         int currentLevel = Settings.System.getInt(getContentResolver(),
-            Settings.System.SMART_CHARGING_LEVEL, mSmartChargingLevelDefaultConfig);
+              Settings.System.SMART_CHARGING_LEVEL, mSmartChargingLevelDefaultConfig);
+        int currentLevelMin = Settings.System.getInt(getContentResolver(),
+                  Settings.System.SMART_CHARGING_LEVEL_MIN, mSmartChargingLevelMinDefaultConfig);
+
         mSmartChargingLevel.setValue(currentLevel);
         mSmartChargingLevel.setOnPreferenceChangeListener(this);
+        mSmartChargingLevelMin.setValue(currentLevelMin);
+        mSmartChargingLevelMin.setOnPreferenceChangeListener(this);
+
         mFooterPreferenceMixin.createFooterPreference().setTitle(R.string.smart_charging_footer);
     }
 
@@ -83,6 +96,12 @@ public class SmartChargingSettings extends DashboardFragment implements OnPrefer
             int smartChargingLevel = (Integer) objValue;
             Settings.System.putInt(getContentResolver(),
                     Settings.System.SMART_CHARGING_LEVEL, smartChargingLevel);
+            return true;
+        }
+        if (preference == mSmartChargingLevelMin) {
+            int smartChargingLevelMin = (Integer) objValue;
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.SMART_CHARGING_LEVEL_MIN, smartChargingLevelMin);
             return true;
         } else {
             return false;
