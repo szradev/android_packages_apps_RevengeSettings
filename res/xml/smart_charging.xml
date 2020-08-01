@@ -44,9 +44,4 @@
         android:defaultValue="80"
         android:dependency="smart_charging" />
 
-    <com.revengeos.settings.preference.SystemSettingSwitchPreference
-        android:key="smart_charging_night"
-        android:title="@string/smart_charging_night_switch_title"
-        android:defaultValue="false" />
-
 </PreferenceScreen>
