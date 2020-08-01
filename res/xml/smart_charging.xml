@@ -27,6 +27,22 @@
         android:defaultValue="false" />
 
     <com.revengeos.settings.preference.CustomSeekBarPreference
+        android:key="smart_charging_level"
+        android:title="@string/smart_charging_level_title"
+        android:max="100"
+        settings:min="60"
+        settings:units="%"
+        android:defaultValue="80"
+        android:dependency="smart_charging" />
+
+    <com.revengeos.settings.preference.SystemSettingSwitchPreference
+        android:key="smart_charging_reset_stats"
+        android:title="@string/smart_charging_reset_stats_title"
+        android:summary="@string/smart_charging_reset_stats_summary"
+        android:defaultValue="false"
+        android:dependency="smart_charging" />
+
+    <com.revengeos.settings.preference.CustomSeekBarPreference
         android:key="smart_charging_level_min"
         android:title="@string/smart_charging_level_min_title"
         android:max="90"
@@ -34,14 +50,4 @@
         settings:units="%"
         android:defaultValue="40"
         android:dependency="smart_charging" />
-
-    <com.revengeos.settings.preference.CustomSeekBarPreference
-        android:key="smart_charging_level"
-        android:title="@string/smart_charging_level_title"
-        android:max="100"
-        settings:min="65"
-        settings:units="%"
-        android:defaultValue="80"
-        android:dependency="smart_charging" />
-
 </PreferenceScreen>
