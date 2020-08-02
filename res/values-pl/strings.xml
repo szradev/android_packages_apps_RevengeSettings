@@ -186,7 +186,7 @@
     <string name="smart_charging_summary">Ustaw maksymaly poziom naładowania</string>
     <string name="smart_charging_switch_title">Używaj inteligentnego ładowania</string>
     <string name="smart_charging_level_title">Poziom ładowania</string>
-    <string name="smart_charging_level_min_title">Trigger level start</string>
+    <string name="smart_charging_level_min_title">Poziom wznowienia</string>
     <string name="smart_charging_night_switch_title">Nocne ładowanie (TEST)</string>
     <string name="smart_charging_footer">Inteligetne ładowanie pozwała zwieszyć żywotność Twojego ogniwa. Nocne ładowanie uruchomi ładowanie bateri dopiero ok 4 w nocy tak aby na rano telefon był naladowany chroniąc twoją baterie</string>
     <string name="smart_charging_reset_stats_title">Reset statystyk bateri</string>
