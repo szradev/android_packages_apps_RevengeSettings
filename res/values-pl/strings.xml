@@ -24,27 +24,27 @@
     <string name="revengeos_version">RevengeOS version</string>
     <string name="revengeos_build_id">RevengeOS build ID</string>
     <!-- Button settings -->
-    <string name="buttons_settings_title">Buttons</string>
+    <string name="buttons_settings_title">Przyciski</string>
     <!-- Volume category -->
-    <string name="volume_keys_category">Volume Keys</string>
+    <string name="volume_keys_category">Przyciski głośności</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume rocker wake</string>
-    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+    <string name="volume_rocker_wake_title">Przyciski głośności wybudzają</string>
+    <string name="volume_rocker_wake_summary">Przyciski głośności wybudzą twoje urządzenie</string>
     <!-- Volume rocker music control -->
-    <string name="volume_rocker_music_controls_title">Playback control</string>
-    <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
+    <string name="volume_rocker_music_controls_title">Kontrola odtwarzania</string>
+    <string name="volume_rocker_music_controls_summary">Przytrzymaj przyciski na wyłączonym ekranie by zmienić track</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Color Picker</string>
-    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="dialog_color_picker">Wybierz kolor</string>
+    <string name="press_color_to_apply">Wybierz kolor do zaakceptowania</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Set</string>
-    <string name="color_default">Default</string>
+    <string name="set">Ustaw</string>
+    <string name="color_default">Domyślny</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Battery charging light</string>
-    <string name="battery_light_enable">Enable</string>
+    <string name="battery_light_settings">Diody ładowania</string>
+    <string name="battery_light_enable">Włączony</string>
     <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
     <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
     <string name="battery_light_cat">Battery light color when charging</string>
@@ -53,9 +53,9 @@
     <string name="battery_light_full_color">Almost full battery</string>
     <string name="battery_light_reallyfull_color">Full (100) battery</string>
     <!-- Generic stuff used everywhere -->
-    <string name="reset">Reset</string>
+    <string name="reset">Resetuj</string>
     <!-- Buttons -->
-    <string name="button_pref_title">Buttons</string>
+    <string name="button_pref_title">Przyciski</string>
     <string name="hardware_keys_power_key_title">Power button</string>
     <string name="hardware_keys_home_key_title">Home button</string>
     <string name="hardware_keys_back_key_title">Back button</string>
@@ -102,44 +102,44 @@
     <string name="swap_navigation_keys_title">Swap hardware buttons</string>
     <string name="swap_navigation_keys_title_summary">Swap the order of recents and back buttons</string>
     <!-- Status bar tuner-->
-    <string name="statusbar_title">Status bar</string>
-    <string name="statusbar_items_title">Icons</string>
-    <string name="status_bar_items_summary">Add or remove status bar icons</string>
+    <string name="statusbar_title">Pasek statusu</string>
+    <string name="statusbar_items_title">Ikony</string>
+    <string name="status_bar_items_summary">Dodaje lub usówa wyswietlane ikony</string>
     <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="display_cutout_force_fullscreen_title">Aplikacje pełnoekranowe</string>
+    <string name="display_cutout_force_fullscreen_summary">Zmuszaj do likwidacji notcha</string>
     <!-- Network traffic -->
-    <string name="traffic_title">Traffic indicators</string>
-    <string name="traffic_title_summary">Customize network traffic indicators</string>
-    <string name="network_traffic_title">Network traffic</string>
-    <string name="network_traffic_type">Select net activity type</string>
-    <string name="show_network_traffic_up">Uplink</string>
-    <string name="show_network_traffic_down">Downlink</string>
-    <string name="show_network_traffic_all">Uplink and Downlink</string>
-    <string name="network_traffic_state_title">Show net activity in statusbar</string>
-    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
-    <string name="network_traffic_hidearrow">Hide arrows</string>
-    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+    <string name="traffic_title">Monitor sieci</string>
+    <string name="traffic_title_summary">Dopasuj monitor sieci</string>
+    <string name="network_traffic_title">Monitor sieci</string>
+    <string name="network_traffic_type">Wybierz typ aktywności</string>
+    <string name="show_network_traffic_up">Wysyłanie</string>
+    <string name="show_network_traffic_down">Pobieranie</string>
+    <string name="show_network_traffic_all">Wysyłanie i pobieranie</string>
+    <string name="network_traffic_state_title">Pokaż monitor sieci na pasku</string>
+    <string name="network_traffic_autohide_threshold_title">Próg aktywacji(KB/s)</string>
+    <string name="network_traffic_hidearrow">Schowaj strzałki</string>
+    <string name="network_traffic_hidearrow_summary">Nie pokazuj strzałek w monitorze sieci</string>
     <!-- Power menu -->
-    <string name="power_menu_title">Power menu</string>
-    <string name="power_menu_screenshot_title">Screenshot</string>
-    <string name="power_menu_screenshot_summary">Long-press for partial screenshot</string>
-    <string name="power_menu_airplane_title">Airplane mode</string>
-    <string name="power_menu_users_title">User switcher</string>
-    <string name="power_menu_bug_report_title">Bug report</string>
+    <string name="power_menu_title">Menu zasilania</string>
+    <string name="power_menu_screenshot_title">Zrzut ekranu</string>
+    <string name="power_menu_screenshot_summary">Long-press dla zrzutu ekranu</string>
+    <string name="power_menu_airplane_title">Tryb samolotowy</string>
+    <string name="power_menu_users_title">Zmiana użytkownika</string>
+    <string name="power_menu_bug_report_title">Zgloś bląd</string>
     <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
-    <string name="power_menu_lockdown_title">Lockdown</string>
+    <string name="power_menu_lockdown_title">Blokada ekranu</string>
     <!-- Advanced restart options -->
-    <string name="advanced_reboot_title">Advanced restart</string>
-    <string name="advanced_reboot_summary">When unlocked, include options in the power menu for restarting into recovery or bootloader</string>
-    <string name="torch_long_press_power_gesture_title">Screen off power button torch</string>
-    <string name="torch_long_press_power_gesture_desc">Long press power button while the screen is off to turn on the flashlight</string>
-    <string name="torch_long_press_power_timeout_title">Automatically turn torch off</string>
-    <string name="torch_long_press_power_timeout_never">Never</string>
-    <string name="torch_long_press_power_timeout_1min">1 minute</string>
-    <string name="torch_long_press_power_timeout_2min">2 minutes</string>
-    <string name="torch_long_press_power_timeout_5min">5 minutes</string>
-    <string name="torch_long_press_power_timeout_10min">10 minutes</string>
+    <string name="advanced_reboot_title">Zaawansowany restart</string>
+    <string name="advanced_reboot_summary">Pozwala na restart do recovery lub fastboot.</string>
+    <string name="torch_long_press_power_gesture_title">Włacz latarkę na wyłączonym ekranie</string>
+    <string name="torch_long_press_power_gesture_desc">Długie naciśniecie przycisku zasilania na wyłaczonym ekranie załącza latarkę</string>
+    <string name="torch_long_press_power_timeout_title">Automatycznie wyłącz latarkę</string>
+    <string name="torch_long_press_power_timeout_never">Nigdy</string>
+    <string name="torch_long_press_power_timeout_1min">1 minuta</string>
+    <string name="torch_long_press_power_timeout_2min">2 minuty</string>
+    <string name="torch_long_press_power_timeout_5min">5 minut</string>
+    <string name="torch_long_press_power_timeout_10min">10 minut</string>
     <!-- Media art -->
     <string name="media_art_title">Media artwork</string>
     <string name="media_art_summary">Show media cover art as the lockscreen background</string>
@@ -150,34 +150,34 @@
     <string name="lockscreen_visualizer_enable_summary">Show visualizer bars while playing music</string>
     <string name="visualizer_title">Visualizer</string>
     <!-- Ambient edge lighting -->
-    <string name="ambient_light_settings_title">Ambient light</string>
-    <string name="pulse_ambient_light_title">Edge lighting</string>
-    <string name="pulse_ambient_light_summary">Light up the side edges of the screen on notification pulse</string>
-    <string name="pulse_ambient_light_color_title">Edge light color</string>
+    <string name="ambient_light_settings_title">Światło otoczenia</string>
+    <string name="pulse_ambient_light_title">Podświetlanie krawędziowe</string>
+    <string name="pulse_ambient_light_summary">Podświetla krawędzie ekranu przy powiadomieniu</string>
+    <string name="pulse_ambient_light_color_title">Kolor podświetlenia</string>
     <!-- Weather -->
-    <string name="weather_title">Weather</string>
+    <string name="weather_title">Pogoda</string>
     <!-- Lockscreen weather -->
-    <string name="lockscreen_weather_category">Weather</string>
-    <string name="lockscreen_weather_enabled_title">Show on lockscreen</string>
-    <string name="lockscreen_weather_enabled_summary">Show weather information on lockscreen and during doze</string>
-    <string name="lockscreen_weather_settings_title">Setup weather options</string>
-    <string name="lockscreen_weather_settings_summary">Setup icon pack and weather service</string>
-    <string name="weather_config_title">Weather service</string>
-    <string name="weather_config_summary">System service settings</string>
-    <string name="header_weather_title">Header view weather</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
-    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
-    <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and lock screen</string>
+    <string name="lockscreen_weather_category">Pogoda</string>
+    <string name="lockscreen_weather_enabled_title">Pokaż na ekranie blokady</string>
+    <string name="lockscreen_weather_enabled_summary">Pokaż pogodę na ekranie blokady oraz AOD</string>
+    <string name="lockscreen_weather_settings_title">Ustawienia pogody</string>
+    <string name="lockscreen_weather_settings_summary">Ustawienia ikon oraz providera pogody</string>
+    <string name="weather_config_title">Serwis pogodowy</string>
+    <string name="weather_config_summary">Systemowe ustawienia serwisu pogodowego</string>
+    <string name="header_weather_title">Nagłowek pogody</string>
+    <string name="header_weather_summary">Pokazuje pogode w pasku stanu</string>
+    <string name="weather_icon_pack_title">Ikony pogodowe</string>
+    <string name="weather_icon_pack_note">Note\u003a mozesz zainstalować paczki ikon szukajać w sklepie \"Chronus icons\"</string>
+    <string name="weather_icon_pack_info_title">Ikony wykorzystywane do wyświetlania zjawisk pogodowych</string>
     <!-- Lockscreen weather style -->
-    <string name="lockscreen_weather_style_title">Weather style</string>
-    <string name="lockscreen_weather_omni_style_title">Omni style</string>
-    <string name="lockscreen_weather_pixel_style_title">Pixel style</string>
+    <string name="lockscreen_weather_style_title">Styl pogody</string>
+    <string name="lockscreen_weather_omni_style_title">Styl Omni</string>
+    <string name="lockscreen_weather_pixel_style_title">Styl Pixel</string>
     <!-- Battery health -->
-    <string name="battery_health_title">Battery health</string>
-    <string name="battery_health_summary">Monitor the battery health of your device</string>
-    <string name="current_battery_capacity">Current battery capacity</string>
-    <string name="current_battery_capacity_summary">The current battery capacity measured by the kernel</string>
-    <string name="designed_battery_capacity">Designed battery capacity</string>
-    <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
+    <string name="battery_health_title">Zdrowie bateri</string>
+    <string name="battery_health_summary">Monitoruje zdrowie bateri</string>
+    <string name="current_battery_capacity">Obecna pojemność bateri</string>
+    <string name="current_battery_capacity_summary">Obecna pojemnośc bateri zgłaszana przez jądro</string>
+    <string name="designed_battery_capacity">Bazowa pojemnośc bateri</string>
+    <string name="designed_battery_capacity_summary">Pojemnośc bateri bazowa (producenta)</string>
 </resources>
