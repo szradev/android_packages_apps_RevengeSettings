@@ -104,7 +104,7 @@
     <!-- Status bar tuner-->
     <string name="statusbar_title">Pasek statusu</string>
     <string name="statusbar_items_title">Ikony</string>
-    <string name="status_bar_items_summary">Dodaje lub usówa wyswietlane ikony</string>
+    <string name="status_bar_items_summary">Dodaje lub usuwa wyswietlane ikony</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Aplikacje pełnoekranowe</string>
     <string name="display_cutout_force_fullscreen_summary">Zmuszaj do likwidacji notcha</string>
@@ -141,14 +141,14 @@
     <string name="torch_long_press_power_timeout_5min">5 minut</string>
     <string name="torch_long_press_power_timeout_10min">10 minut</string>
     <!-- Media art -->
-    <string name="media_art_title">Media artwork</string>
-    <string name="media_art_summary">Show media cover art as the lockscreen background</string>
-    <string name="lockscreen_media_blur_title">Media artwork blur level</string>
-    <string name="art_work_title">Artwork</string>
+    <string name="media_art_title">Okładki muzyczne</string>
+    <string name="media_art_summary">Pokazuj okładki muzyczne na ekranie blokady</string>
+    <string name="lockscreen_media_blur_title">Poziom rozmycia</string>
+    <string name="art_work_title">Wizualizacje</string>
     <!-- Lock screen visualizer -->
-    <string name="lockscreen_visualizer_enable">Music Visualizer</string>
-    <string name="lockscreen_visualizer_enable_summary">Show visualizer bars while playing music</string>
-    <string name="visualizer_title">Visualizer</string>
+    <string name="lockscreen_visualizer_enable">Muzyczne wizualizacje</string>
+    <string name="lockscreen_visualizer_enable_summary">Pokaż wizualizacje gdy gra muzyka</string>
+    <string name="visualizer_title">Wizualizacje</string>
     <!-- Ambient edge lighting -->
     <string name="ambient_light_settings_title">Światło otoczenia</string>
     <string name="pulse_ambient_light_title">Podświetlanie krawędziowe</string>
@@ -180,4 +180,8 @@
     <string name="current_battery_capacity_summary">Obecna pojemnośc bateri zgłaszana przez jądro</string>
     <string name="designed_battery_capacity">Bazowa pojemnośc bateri</string>
     <string name="designed_battery_capacity_summary">Pojemnośc bateri bazowa (producenta)</string>
+
+    <!-- Navbar -->
+    <string name="navbar_title">Pasek nawigacji</string>
+    <string name="invert_navbar_buttons_title">Zamień przyciski miejscami</string>
 </resources>
